@@ -41,6 +41,7 @@ Cellculator uses the below equation to calculate cell viability:
 
 > Seeding volume is calculated from the viable cell density data using the below equation:
 
+(seeding density x final volume)/vcd = ml of cells that should be taken from the mother cell line
 
 
 ## Basic Cellculator Commands<a name="basic_cellculator_commands"></a> 
