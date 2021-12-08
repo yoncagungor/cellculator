@@ -21,12 +21,13 @@
 
 ![Hemocytometer Image](https://user-images.githubusercontent.com/95544271/145188531-7c87da94-6bdd-45ea-9056-d78932a8a0d2.png)
 
-As a common use, viable and dead cell counts are gathered from the 5 squares of the hemocytometer that is highlighted with a red line [[1]](https://bitesizebio.com/13687/cell-counting-with-a-hemocytometer-easy-as-1-2-3/).
+**Image 1.** As a common use, viable and dead cell counts are gathered from the 5 squares of the hemocytometer that is highlighted with a red line [[1]](https://bitesizebio.com/13687/cell-counting-with-a-hemocytometer-easy-as-1-2-3/).
 
 Calculations are based on the below equation:
 
   ![Formula](https://rightbrainedscientist.files.wordpress.com/2015/11/cellcounttotal.jpg)
-  [[2] Calculation of viabile cell density.](https://rightbrainedscientist.wordpress.com/science-2/techniques/cell-counting/)
+  
+  **Image 2.** Calculation of viabile cell density [[2]](https://rightbrainedscientist.wordpress.com/science-2/techniques/cell-counting/).
   
 Cellculator assumes that # of squares equal to 5, df equals to 2 and the volume (ml) is equal to 30 if not specified.
 
