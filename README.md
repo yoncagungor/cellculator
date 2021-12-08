@@ -51,6 +51,7 @@ Cellculator uses the below equation to calculate cell viability:
 | ----------- | --------------- |
 | `cc vcc` | Gives the list of all *viable cell counts*. |
 | `cc via` | Gives the list of *viability* of all cells that were counted. |
+| `cc sd` | Computes the required volume of cells for the next passage. |
 
 
 ### 1. Viable Cell Counts: `cc vcc`
