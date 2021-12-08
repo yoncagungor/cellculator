@@ -12,16 +12,22 @@
 - [Calculating Cell Viability](#calculating_cell_viability)
 - [Calculating Seeding Volume](#seeding)
 - [Basic Cellculator Commands](#basic_cellculator_commands)
+- [Sources](#sources)
 
 ## Calculating Total Viable Cell Counts<a name="viable_cell_counts_calculation"></a> 
 [[back to top]](#cellculator)
   
 > Cellculator can calculate the number of living cells simultaneously from the raw data taken directly from a hemocytometer. 
 
+![Hemocytometer Image](https://user-images.githubusercontent.com/95544271/145188531-7c87da94-6bdd-45ea-9056-d78932a8a0d2.png)
+
+As a common use, viable and dead cell counts are gathered from the 5 squares of the hemocytometer that is highlighted with a red line [[1]](https://bitesizebio.com/13687/cell-counting-with-a-hemocytometer-easy-as-1-2-3/).
+
 Calculations are based on the below equation:
 
   ![Formula](https://rightbrainedscientist.files.wordpress.com/2015/11/cellcounttotal.jpg)
-    
+  [[2] Calculation of viabile cell density.](https://rightbrainedscientist.wordpress.com/science-2/techniques/cell-counting/)
+  
 Cellculator assumes that # of squares equal to 5, df equals to 2 and the volume (ml) is equal to 30 if not specified.
 
 
@@ -99,3 +105,10 @@ Sample code:
 `cc sd -dn 0,2 ; vol 30 actual_counts.txt`
 
 This code will give the volume of cell suspension needed for seeding at **0,2 mm/ml** in a final volume of **30 ml** for the cell passage.
+
+## Sources<a name="sources"></a> 
+[[back to top]](#cellculator)
+
+**[1]** https://bitesizebio.com/13687/cell-counting-with-a-hemocytometer-easy-as-1-2-3/
+
+**[2]** https://rightbrainedscientist.wordpress.com/science-2/techniques/cell-counting/
